@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+  }
+
+  
+.heading {
+    padding-left: 9%;
+    color: white;
+  }
+  
+  nav {
+    padding-top: 15px;
+    padding-right: 18%;
+  
+    }
+  
+  nav a {
+    text-decoration: none;
+    color:gainsboro;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  nav svg {
+    color: gainsboro;
+    cursor: pointer;
+  }
+  
+  nav a.router-link-exact-active {
+    color: white;
+  }
+  
